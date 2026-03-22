@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Horizon X</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #131625;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      width: 100vw;
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      padding: 20px;
+    }
+
+    .logo {
+      max-width: 90%;
+      max-height: 80vh;
+      object-fit: contain;
+    }
+
+    /* Ajustes para telas maiores */
+    @media (min-width: 768px) {
+      .logo {
+        max-width: 400px;
+      }
+    }
+
+    @media (min-width: 1200px) {
+      .logo {
+        max-width: 500px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <!-- Substitua pelo caminho do seu logo -->
+    <img src="logo.jpg" alt="Horizon X Logo" class="logo" />
+  </div>
+</body>
+</html>
